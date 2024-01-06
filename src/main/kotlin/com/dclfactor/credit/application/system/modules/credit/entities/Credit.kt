@@ -1,7 +1,6 @@
-package com.dclfactor.credit.application.system.modules.credit
+package com.dclfactor.credit.application.system.modules.credit.entities
 
-import com.dclfactor.credit.application.system.modules.credit.enumeration.Status
-import com.dclfactor.credit.application.system.modules.customer.Customer
+import com.dclfactor.credit.application.system.modules.customer.entities.Customer
 import jakarta.persistence.*
 import java.math.BigDecimal
 import java.time.LocalDate

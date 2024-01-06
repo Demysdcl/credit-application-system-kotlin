@@ -1,28 +1,32 @@
-package com.dclfactor.credit.application.system.modules.customer
+package com.dclfactor.credit.application.system.modules.customer.entities
 
-import com.dclfactor.credit.application.system.modules.credit.Credit
+import com.dclfactor.credit.application.system.modules.credit.entities.Credit
 import jakarta.persistence.*
+import java.math.BigDecimal
 
 @Entity
 data class Customer(
     @Column(nullable = false)
-    val firstName: String,
+    val firstName: String = "",
 
     @Column(nullable = false)
-    val lastName: String,
+    val lastName: String = "",
 
     @Column(nullable = false, unique = true)
-    val email: String,
+    val email: String = "",
 
     @Column(nullable = false, unique = true)
-    val cpf: String,
+    val cpf: String = "",
 
     @Column(nullable = false)
-    val password: String,
+    val password: String = "",
+
+    @Column(nullable = false)
+    val income: BigDecimal = BigDecimal.ZERO,
 
     @Embedded
     @Column(nullable = false)
-    val address: Address,
+    val address: Address = Address(),
 
     @Column(nullable = false)
     @OneToMany(fetch = FetchType.LAZY, cascade = [CascadeType.REMOVE, CascadeType.PERSIST], mappedBy = "customer")

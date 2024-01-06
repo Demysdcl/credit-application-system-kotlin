@@ -1,5 +1,6 @@
 package com.dclfactor.credit.application.system.modules.credit
 
+import com.dclfactor.credit.application.system.modules.credit.entities.Credit
 import com.dclfactor.credit.application.system.modules.customer.CustomerService
 import org.springframework.stereotype.Service
 import java.util.*
