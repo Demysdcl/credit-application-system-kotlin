@@ -1,4 +1,4 @@
-package com.dclfactor.credit.application.system.modules.address
+package com.dclfactor.credit.application.system.modules.customer
 
 import jakarta.persistence.Column
 import jakarta.persistence.Embeddable

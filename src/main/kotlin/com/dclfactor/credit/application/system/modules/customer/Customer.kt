@@ -1,6 +1,5 @@
 package com.dclfactor.credit.application.system.modules.customer
 
-import com.dclfactor.credit.application.system.modules.address.Address
 import com.dclfactor.credit.application.system.modules.credit.Credit
 import jakarta.persistence.*
 
