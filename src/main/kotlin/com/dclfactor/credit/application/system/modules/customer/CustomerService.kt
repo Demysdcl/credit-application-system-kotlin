@@ -15,6 +15,7 @@ class CustomerService(private val repository: CustomerRepository) {
             throw BusinessException("Id $id not found")
         }
 
-    fun delete(id: Long) = this.repository.deleteById(id)
+    fun delete(id: Long) = this.findById(id)
+        .let { repository.delete(it) }
 
 }
