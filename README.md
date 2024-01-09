@@ -48,13 +48,28 @@
 <a href="https://www.linkedin.com/in/demys-lima/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/24606863?s=400&u=cdc7ecea1c59ae6824e2639345ac18c7ba0f153d&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Camila Cavalcante</b></sub></a> <a href="https://www.instagram.com/camimi_la/" title="Instagram"></a>
-
-Feito com ❤️ por Demys Lima 👋🏽 Entre em contato!
+ <sub><b>Demys Lima</b></sub>
+</a> 
+<br>
+<br>
+Projeto desenvolvido por Demys Lima no Bootcamp de Kotlin com Spring da DIO!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Demys-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/demys-lima/)](https://www.linkedin.com/in/demys-lima/)
 [![Gmail Badge](https://img.shields.io/badge/-demysdcl@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:demysdcl@gmail.com)](mailto:camiladsantoscavalcante@gmail.com)
 <hr>
+
+
+<h3>Instrutora</h3>
+
+<a href="https://www.linkedin.com/in/cami-la/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/64323124?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Camila Cavalcante</b></sub></a> <a href="https://www.instagram.com/camimi_la/" title="Instagram"></a>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Camila-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cami-la/)](https://www.linkedin.com/in/cami-la/)
+[![Gmail Badge](https://img.shields.io/badge/-camiladsantoscavalcante@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:camiladsantoscavalcante@gmail.com)](mailto:camiladsantoscavalcante@gmail.com)
+<hr>
+
 <h3>Contribuindo</h3>
 
 Este repositório foi criado para fins de estudo, então contribua com ele.<br>
