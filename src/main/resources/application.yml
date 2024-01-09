@@ -1,9 +1,8 @@
 spring:
   jpa:
     show-sql: true
-    hibernate:
-      properties:
-        hibernate.format_sql: true
+    properties:
+      hibernate.format_sql: true
   datasource:
     url: jdbc:h2:mem:credit_application_system_db
     username: ddemys

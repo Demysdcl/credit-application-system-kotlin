@@ -27,8 +27,7 @@ data class Customer(
     @Embedded
     @Column(nullable = false)
     val address: Address = Address(),
-
-    @Column(nullable = false)
+    
     @OneToMany(fetch = FetchType.LAZY, cascade = [CascadeType.REMOVE, CascadeType.PERSIST], mappedBy = "customer")
     val credits: List<Credit> = mutableListOf(),
 

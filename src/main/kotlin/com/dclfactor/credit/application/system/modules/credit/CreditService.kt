@@ -2,6 +2,7 @@ package com.dclfactor.credit.application.system.modules.credit
 
 import com.dclfactor.credit.application.system.modules.credit.entities.Credit
 import com.dclfactor.credit.application.system.modules.customer.CustomerService
+import com.dclfactor.credit.application.system.modules.exception.BusinessException
 import org.springframework.stereotype.Service
 import java.util.*
 
@@ -19,6 +20,6 @@ class CreditService(
     fun findByCreditCode(customerId: Long, creditCode: UUID): Credit = this.creditRepository
         .findByCreditCode(customerId, creditCode)
         .orElseThrow {
-            throw RuntimeException("Credit code $creditCode not found to customer ID: $customerId")
+            throw BusinessException("Credit code $creditCode not found to customer ID: $customerId")
         }
 }
